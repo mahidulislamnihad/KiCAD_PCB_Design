@@ -10,7 +10,9 @@ This project is a digital diya PCB design that automatically lights up by detect
 3. After finalizing the schematic, an ERC (Electrical Rules Check) was performed to identify any design errors. The ERC results confirmed that no critical issues were present. The report is included here:[ ERC Check](ERC_Check.png)
 4.  Once the schematic passed the ERC, component footprints were assigned. The assigned footprints can be viewed in this Screenshot: [Assigned Footprints](Assigned_Footprints..png). For the condenser microphone, an exact footprint was not available in the KiCad library, so a closely matching default footprint was selected based on its physical dimensions.
 
-
+# Next Step
+1. Going through DRC Rules.
+2. Tracing
 
 # P.S.
 This project is based on a YouTube tutorial, followed for PCB design learning purposes, including the provided circuit diagram etc.
