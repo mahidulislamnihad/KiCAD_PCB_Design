@@ -14,7 +14,7 @@ This project is a digital diya PCB design that automatically lights up by detect
 7. After setting up the DRC rules, the initial 3D view of the PCB was analyzed to understand its physical appearance: [Initial PCB 3D View](Initial_PCB_3D_View.png)
 8. [Top layer](Routed_PCB_Top_Layer.png) and [Bottom layer](Routed_PCB_Bottom_Layer.png) routing has been done.
 9. Microcontroller pin was connected to an LED using a via to understand inter-layer connectivity in a 2-layer PCB.
-10. Copper fill was applied, and its role in grounding and overall PCB performance was explored.
+10. Copper fill was applied, and its role in grounding and overall PCB performance has been understood.
     
 # Next Step
 1. Going through DRC check.
