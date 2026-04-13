@@ -9,14 +9,16 @@ This project is a digital diya PCB design that automatically lights up by detect
 2. To improve clarity, the schematic was refined using net labels, resulting in a cleaner and more understandable design. The updated version is available here:[ Modified Circuit Schematic](Modified_Clean_Circuit_Diagram.png)
 3. After finalizing the schematic, an ERC (Electrical Rules Check) was performed to identify any design errors. The ERC results confirmed that no critical issues were present. The report is included here:[ ERC Check](ERC_Check.png)
 4.  Once the schematic passed the ERC, component footprints were assigned. The assigned footprints can be viewed in this Screenshot: [Assigned Footprints](Assigned_Footprints.png). For the condenser microphone, an exact footprint was not available in the KiCad library, so a closely matching default footprint was selected based on its physical dimensions.
-5. Use of Board setup tool has been learned and to design a 2 layer PCB. Design constain has been setup by analyzing [PCB way manufacturing capabilities tolerances]([url](https://www.pcbway.com/pcb_prototype/PCB_Manufacturing_tolerances.html)).
-6. Check the setup Design Rule Constraints here: [DRC Constraints](url)
-7. After setting up DRC Rule Intial PCB 3D view has been checked to understand PCB appearence. See here: [Intial PCB 3 View](Initial_PCB_3D_View.png)
+5. Learned to use the Board Setup tool in KiCad to design a 2-layer PCB. Design constraints were defined based on [PCBWay manufacturing tolerances.]([url](https://www.pcbway.com/pcb_prototype/PCB_Manufacturing_tolerances.html))
+6. The configured design rule constraints can be viewed here: [DRC Constraints](url)
+7. After setting up the DRC rules, the initial 3D view of the PCB was analyzed to understand its physical appearance: [Initial PCB 3D View](Initial_PCB_3D_View.png)
 8. [Top layer](Routed_PCB_Top_Layer.png) and [Bottom layer](Routed_PCB_Bottom_Layer.png) routing has been done.
-9. Microcontroller pin with LED has been conneted through a VIA to learn how to connect two layers.
+9. Microcontroller pin was connected to an LED using a via to understand inter-layer connectivity in a 2-layer PCB.
+10. Copper fill was applied, and its role in grounding and overall PCB performance was explored.
+    
 # Next Step
-1. Going through DRC Rules.
-2. Tracing
+1. Going through DRC check.
+2. Gerber file generation
 
 # P.S.
 This project is based on a YouTube tutorial, followed for PCB design learning purposes, including the provided circuit diagram etc.
