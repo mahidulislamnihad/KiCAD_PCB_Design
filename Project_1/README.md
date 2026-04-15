@@ -22,7 +22,8 @@ This project is a digital diya PCB design that automatically lights up by detect
     [Bottom Layer](Gerber_View_Bottom_Layer.png)
     
 # Next Step
-1. In gerber view GND panels is not shown as CU layer rather it is showing as a shape. Checked video need to find proper answer.
+1. In gerber view GND panels is not shown as CU traces rather it is showing as a shape. Checked video need to find proper answer.
+   Answer: It is suppose to show in such way.
 2. Doing another hands on project on KiCAD.
 
 # P.S.
