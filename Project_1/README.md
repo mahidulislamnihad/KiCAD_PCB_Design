@@ -15,10 +15,15 @@ This project is a digital diya PCB design that automatically lights up by detect
 8. [Top layer](Routed_PCB_Top_Layer.png) and [Bottom layer](Routed_PCB_Bottom_Layer.png) routing has been done.
 9. Microcontroller pin was connected to an LED using a via to understand inter-layer connectivity in a 2-layer PCB.
 10. Copper fill was applied, and its role in grounding and overall PCB performance has been understood.
+11. [DRC report](DRC_Check.png) has been checked to ensure no design error.
+12. Why we use Gerber file and how to generate it in KiCAD has been understood.
+13. Gerver file view:
+    [Top Layer](Gerber_View_Bottom_Layer.png)
+    [Bottom Layer](Gerber_View_Bottom_Layer.png)
     
 # Next Step
-1. Going through DRC check.
-2. Gerber file generation
+1. In gerber view GND panels is not shown as CU layer rather it is showing as a shape. Checked video need to find proper answer.
+2. Doing another hands on project on KiCAD.
 
 # P.S.
 This project is based on a YouTube tutorial, followed for PCB design learning purposes, including the provided circuit diagram etc.
