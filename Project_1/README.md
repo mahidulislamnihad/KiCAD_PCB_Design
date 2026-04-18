@@ -25,6 +25,8 @@ This project is a digital diya PCB design that automatically lights up by detect
 1. In gerber view GND panels is not shown as CU traces rather it is showing as a shape. Checked video need to find proper answer.
    Answer: It is suppose to show in such way.
 2. Doing another hands on project on KiCAD.
+3. Plan is to design a voltage regulator. [Project_2_REF]([url](https://www.hackatronic.com/5-volt-power-supply-using-lm-7805-ic/))
 
 # P.S.
 This project is based on a YouTube tutorial, followed for PCB design learning purposes, including the provided circuit diagram etc.
+The design might not be standard trying to ipmrove and learn improved PCB design with timely progress is the goal.
